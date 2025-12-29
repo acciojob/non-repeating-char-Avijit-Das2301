@@ -5,7 +5,7 @@ const freq={};
 
 //First Pass:Build frequency map
 for (let ch of str){
-	freqq[ch]=(freq[ch]||0)+1;
+	freq[ch]=(freq[ch]||0)+1;
 }
 
 //second pass:find first char with frequency 1
